@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smobile weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/weather-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <!-- <h1>weather App</h1>  -->
+
+    <div class="page-container">
+        <div class="nav">
+            <div class="branding">
+                <a href=""><i class="fa-solid fa-wind ac-icon"></i></a>
+            </div>
+            <div class="nav-links">
+                <div class="weather">
+                    <a href=""><i class="fa-solid fa-cloud-sun-rain ac-icon"></i><br>weather</a>
+                </div>
+                <div class="weather">
+                    <a href=""><i class="fa-solid fa-list ac-icon"></i><br>Cities</a>
+                </div>
+                <div class="weather">
+                    <a href=""><i class="fa-regular fa-map ac-icon"></i><br>Map</a>
+                </div>
+                <div class="weather">
+                    <a href=""><i class="fa-solid fa-bars-staggered ac-icon"></i><br>Settings</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- main section -->
+        <div class="main">
+            <input type="text" placeholder="search for cities" class="search">
+            <div class="search-result">
+                <div class="option">
+                    <p>
+                        <b class="city">Enugu,</b>
+                        Enugu
+                    </p>
+                    <P class="country">NG</P>
+
+                </div>
+                <div class="option">
+                    <p>
+                        <b class="city">Enugu,</b>
+                        Enugu
+                    </p>
+                    <P class="country">NG</P>
+
+                </div>
+                <div class="option">
+                    <p>
+                        <b class="city">Enugu,</b>
+                        Enugu
+                    </p>
+                    <P class="country">NG</P>
+
+                </div>
+                <div class="option">
+                    <p>
+                        <b class="city">Enugu,</b>
+                        Enugu
+                    </p>
+                    <P class="country">NG</P>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="display">
+                <!-- <div class="loc">
+                    <h2>Madrid</h2>
+                    <p>change of rain 0%</p>
+                    <h1>31<sup>o</sup></h1>
+                </div>
+                <div class="w-icon">
+                    <img src="./images/sunny.png" alt="">
+                </div> -->
+            </div>
+            <div class="today-forcast">
+                <p>TODAY'S FORCAST</p>
+
+                <div class="forcast">
+                    <!-- 6 item in forcast -->
+                    <!-- <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div>
+                    <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div>
+                    <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div>
+                    <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div>
+                    <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div>
+                    <div class="f-time">
+                        <p>6.00am</p>
+                        <img src="./images/cloud.jpeg" alt="" class="f-image">
+                        <h4>31<sup>0</sup></h4>
+                    </div> -->
+                </div>
+            </div>
+            <div class="air-con">
+                <div class="air-title">
+                    <p>AIR CONDITIONS</p>
+                    <BUtton>see more</BUtton>
+                </div>
+                <div class="ac-details">
+                    <div class="left">
+                        <div class="left-i">
+                            <i class="fas fa-thermometer ac-icon"></i>
+                            <div>
+                                <p> Real Feal</p>
+                                <h4>31<sup>o</sup></h4>
+                            </div>
+                        </div>
+
+                        <div class="left-i">
+                            <i class="fa-solid fa-droplet ac-icon"></i>
+                            <div>
+                                <p>Chance of rain</p>
+                                <h4>0%</h4>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="left">
+                        <div class="left-i">
+                            <i class="fa-solid fa-wind ac-icon"></i>
+                            <div>
+                                <p>Wind</p>
+                                <h4>0.2km/h</h4>
+                            </div>
+                        </div>
+
+                        <div class="left-i">
+                            <i class="fa-solid fa-sun ac-icon"></i>
+                            <div>
+                                <p>UV index</p>
+                                <h4>3</h4>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- right sidebar -->
+        <div class="sidebar">
+            <p>7-DAYS FORCAST</p>
+            <!-- 7 item -->
+
+            <div class="f-lists">
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+                <div class="f-list">
+                    <span>TODAY</span>
+
+                    <div class="f-weather">
+                        <img src="./images/sunny.png" alt="">
+                        <span>SUNNY</span>
+                    </div>
+
+                    <Span>36/22</Span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+<footer>
+<p> &copy; 2026 copyright: Weather Frost. Developed By:<a target="_blank" href="https://github.com/Flemzy111/"> Dozie</a>  </p>
+
+</footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
